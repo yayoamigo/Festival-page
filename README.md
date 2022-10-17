@@ -1,6 +1,6 @@
 # Festival-page
 
-online website for a hypothetical music festival
+Online website for a hypothetical music festival
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
