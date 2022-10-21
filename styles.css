@@ -1,0 +1,1034 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+:root {
+  --orange: #ec5242;
+  --grey: #d3d3d3;
+  --black: #272a31;
+  --font: "Lato", 'Franklin Gothic Medium', 'Arial Narrow', arial, sans-serif;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-brands {
+  color: #d3d3d3;
+  size: 13px;
+}
+
+/* Home page */
+
+.social-media {
+  display: none;
+}
+
+#section-hero {
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  height: auto;
+}
+
+#hero-div {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.margin-none {
+  margin-left: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+#ham-link {
+  align-content: center;
+  display: block;
+  align-self: center;
+}
+
+#ham-btn {
+  width: 30px;
+  align-self: center;
+}
+
+#navbar {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(228, 224, 218, 0.96);
+}
+
+#nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+#logo-link {
+  display: none;
+}
+
+#logo-mobile {
+  display: block;
+}
+
+#logo-btn-show {
+  width: 90px;
+  align-self: center;
+}
+
+#nav-pages {
+  display: none;
+}
+
+#hero-bg {
+  padding-top: 2%;
+  height: auto;
+  background-image: linear-gradient(180deg, rgba(228, 224, 218, 0.65), rgba(221, 54, 12, 0.65));
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.title {
+  display: flex;
+  color: var(--orange);
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 8%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.title h1 {
+  font-weight: 900;
+  margin: 0;
+  text-align: left;
+}
+
+.paragraph {
+  display: flex;
+  font-family: var(--font);
+  color: var(--black);
+  padding: 10px;
+  margin: 0;
+  line-height: 150%;
+  font-size: 13px;
+  height: auto;
+  text-align: center;
+  word-break: break-all;
+  width: 80%;
+  margin-left: 7%;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font);
+  color: var(--black);
+  font-size: 15px;
+  font-weight: bold;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 4px;
+  letter-spacing: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date p {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#contact {
+  display: none;
+}
+
+#main-program {
+  background-image: url(./bg-img/pattern_bg.png);
+  background-repeat: repeat;
+  background-color: #272a32;
+  height: 730px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 25px;
+  margin: 0;
+}
+
+#program {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font);
+  gap: 10px;
+}
+
+.title-about h1 {
+  font-weight: 900;
+}
+
+#program h2 {
+  color: var(--grey);
+}
+
+#program-title {
+  margin: 0;
+  padding: 0;
+}
+
+#program-more {
+  display: none;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.program-cards {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.program-cards img {
+  margin-left: 5px;
+  margin-right: 8px;
+  width: 50px;
+}
+
+.program-cards h3 {
+  font-size: 20px;
+  color: var(--orange);
+  width: 30%;
+}
+
+.card-p {
+  color: var(--grey);
+  width: 80%;
+}
+
+#join-btn {
+  display: block;
+  margin-top: 20px;
+  width: 80%;
+  padding: 30px;
+  background-color: var(--orange);
+  color: var(--grey);
+  font-size: 20px;
+  font-family: var(--font);
+}
+
+/* ABOUT PAGE */
+
+#section-about {
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  height: 600px;
+}
+
+#navbar-about {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 5%;
+  background-color: rgba(228, 224, 218, 0.65);
+}
+
+#about-div {
+  display: flex;
+  flex-direction: column;
+  background-image: rgb(211, 204, 184);
+}
+
+#about-bg {
+  height: 610px;
+  background-image: linear-gradient(180deg, rgba(236, 207, 153, 0.65), rgba(255, 233, 217, 0.65));
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-about {
+  display: flex;
+  color: var(--orange);
+  font-family: var(--font);
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.title-about-2 {
+  display: flex;
+  color: var(--black);
+  font-family: var(--font);
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#about-p {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+}
+
+#about-bg-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  border-bottom: 1px solid #e2e4e7;
+}
+
+.about-img-4 img {
+  width: 50px;
+}
+
+.artist-cards img {
+  width: 25%;
+}
+
+#about-img-2 {
+  width: 100%;
+  justify-content: center;
+}
+
+#about-img-2 img {
+  width: 100%;
+  justify-self: center;
+}
+
+#about-bg-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+#about-img-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  gap: 10px;
+  font-family: var(--font);
+  color: var(--grey);
+  text-align: center;
+  font-size: 20px;
+}
+
+#red-img {
+  width: 360px;
+  height: 300px;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(./bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  justify-self: center;
+}
+
+#red-img-2 {
+  width: 360px;
+  height: 300px;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(./bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  justify-self: center;
+}
+
+#about-bg-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-color: rgb(62, 62, 62);
+}
+
+.about-img-4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+
+#title-footer {
+  color: var(--grey);
+  font-family: var(--font);
+  font-size: 20px;
+}
+
+/* HAMBURGER-BTN */
+
+.hambu-wind {
+  background-color: rgba(182, 160, 131, 0.8);
+  backdrop-filter: blur(4px);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4%;
+  padding-right: 30%;
+}
+
+.active {
+  display: show;
+  transition: 200ms ease-in-out;
+  pointer-events: all;
+}
+
+.not-active {
+  display: none;
+  pointer-events: all;
+}
+
+.x-btn {
+  margin-top: 9%;
+  width: 30px;
+  align-self: flex-end;
+  margin-bottom: 5%;
+  margin-right: 9%;
+}
+
+#close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-right: 20%;
+}
+
+.pop-window {
+  margin-top: 6%;
+  margin-left: 2%;
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 44px;
+  color: var(--black);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pop-window:hover {
+  color: var(--orange);
+}
+
+.guide-bar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid rgb(239, 81, 60);
+  margin: 0 auto 0;
+}
+
+/* JAVASCRIPT-CARDS */
+
+.feature-bands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font);
+}
+
+.band-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 95%;
+}
+
+.artist-cards {
+  display: flex;
+  width: 100%;
+  gap: 5%;
+  font-family: var(--font);
+  margin-top: 2%;
+}
+
+.artist-cards h3 {
+  font-weight: 900;
+}
+
+.artist-cards h6 {
+  margin-top: 0;
+  color: var(--orange);
+  font-style: italic;
+}
+
+.artist-text p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+#last-band-card {
+  margin-bottom: 5%;
+}
+
+.show {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--black);
+  border: solid 1px var(--black);
+  background-color: white;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+.less {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--black);
+  border: solid 1px var(--black);
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+#footer-sec {
+  height: 100px;
+  background-color: var(--grey);
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font);
+}
+
+#footer-part {
+  display: flex;
+  height: 90px;
+  margin-left: 4%;
+  margin-right: 4%;
+  justify-content: space-between;
+  background-color: var(--grey);
+}
+
+#footer-part h3 {
+  align-self: center;
+}
+
+/* MEDIA-QUERY */
+
+@media all and (min-width: 972px) {
+  #ham {
+    display: none;
+  }
+
+  #footer-sec {
+    height: 200px;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #footer-part {
+    display: flex;
+    width: 60%;
+    height: 200px;
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: space-between;
+    background-color: var(--black);
+    color: var(--grey);
+  }
+
+  #section-hero {
+    background-image: linear-gradient(180deg, rgba(228, 224, 218, 0.65), rgba(221, 54, 12, 0.65)), url(./bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom  left;
+    margin: 0;
+    display: block;
+  }
+
+  #hero-div {
+    display: block;
+    background-image: none;
+    width: 100%;
+  }
+
+  #ham-link {
+    align-content: center;
+    display: none;
+  }
+
+  #logo-mobile {
+    display: none;
+  }
+
+  #logo-link {
+    display: block;
+    align-content: center;
+  }
+
+  #logo-btn {
+    width: 80px;
+  }
+
+  .social-media {
+    display: flex;
+    width: 80%;
+    height: 30px;
+    background-color: var(--black);
+    justify-content: center;
+    align-items: center;
+    padding-left: 35%;
+  }
+
+  .social-media i {
+    width: 40px;
+  }
+
+  .social-media span {
+    color: var(--grey);
+    font-family: var(--font);
+    padding-left: 13px;
+  }
+
+  #navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+    background-color: rgba(228, 224, 218, 0.65);
+    box-shadow: 1px 1px 20px;
+  }
+
+  #nav-content {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  #navbar-about {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 5%;
+    background-color: rgba(228, 224, 218, 0.65);
+  }
+
+  #nav-pages {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+  }
+
+  #nav-pages a {
+    padding-right: 4%;
+    margin: 0;
+  }
+
+  #contact {
+    display: flex;
+    align-items: center;
+  }
+
+  #contact-btn {
+    width: auto;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 44px;
+    color: var(--black);
+    font-family: var(--font);
+    background-color: rgba(228, 224, 218, 0.65);
+    border: 3px solid var(--orange);
+  }
+
+  #hero-bg {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+  }
+
+  .title {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    font-size: 45px;
+    justify-content: center;
+  }
+
+  .title h1 {
+    font-weight: 900;
+  }
+
+  .margin-none {
+    margin: 0;
+    font-weight: 300;
+  }
+
+  .paragraph {
+    display: flex;
+    margin: 14px;
+    font-size: 24px;
+    justify-content: center;
+    width: 43%;
+  }
+
+  .date {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -2%;
+    margin-right: 38%;
+  }
+
+  .date h2 {
+    width: 100%;
+  }
+
+  .date p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+  }
+
+  #program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+  }
+
+  .title-about h1 {
+    font-weight: 900;
+  }
+
+  #program h1 {
+    color: var(--grey);
+  }
+
+  #program-title {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2%;
+  }
+
+  .program-cards {
+    background: rgba(255, 255, 255, 0.1);
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .program-cards img {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 8px;
+    width: 65px;
+  }
+
+  #music2 {
+    width: 100px;
+  }
+
+  .program-cards h3 {
+    font-size: 20px;
+    color: var(--orange);
+    width: 100%;
+    text-align: center;
+    margin: 2px;
+  }
+
+  .card-p {
+    color: var(--grey);
+    width: 100%;
+    text-align: center;
+  }
+
+  #join-btn {
+    display: none;
+  }
+
+  #program-more {
+    display: block;
+    margin-top: 3%;
+  }
+
+  /* ABOUT-MEDIA */
+
+  #about-img-3 {
+    flex-direction: row;
+  }
+
+  #section-about {
+    background-image: linear-gradient(180deg, rgba(236, 207, 153, 0.65), rgba(255, 233, 217, 0.65));
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: block;
+    height: 900px;
+  }
+
+  #about-div {
+    display: block;
+    flex-direction: column;
+    background-image: rgb(211, 204, 184);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about-bg {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  #date-about {
+    margin-top: 0;
+  }
+
+  .title-about {
+    display: flex;
+    color: var(--orange);
+    font-family: var(--font);
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .title-about-2 {
+    display: flex;
+    color: var(--black);
+    font-family: var(--font);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #about-p {
+    background-color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+  }
+
+  .about-img-4 img {
+    width: 170px;
+    align-self: center;
+  }
+
+  .artist-cards {
+    display: flex;
+    width: 100%;
+    gap: 5%;
+  }
+
+  .artist-cards img {
+    width: 25%;
+  }
+
+  #about-img-2 {
+    width: 30%;
+    justify-self: center;
+  }
+
+  #about-img-2 img {
+    justify-self: center;
+  }
+
+  #red-img {
+    width: 600px;
+    height: 330px;
+    justify-content: center;
+    background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(./bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: bottom left;
+    justify-self: center;
+  }
+
+  #red-img-2 {
+    width: 600px;
+    height: 330px;
+    justify-content: center;
+    background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(./bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 700px;
+    justify-self: center;
+  }
+
+  .about-img-4 {
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-between;
+    gap: 2%;
+    padding-bottom: 30px;
+    align-self: center;
+  }
+
+  #title-footer {
+    color: var(--grey);
+    font-family: var(--font);
+    font-size: 30px;
+  }
+
+  /* JAVASCRIPT-MEDIA */
+
+  .feature-bands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font);
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .band-row {
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+  }
+
+  .artist-cards h6 {
+    margin-top: 0;
+  }
+
+  .artist-text p {
+    margin: 0;
+    padding: 0;
+  }
+
+  #last-band-card {
+    margin-bottom: 5%;
+  }
+
+  .show {
+    display: none;
+    width: 95%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black);
+    border: solid 1px var(--black);
+    background-color: white;
+    margin-top: 8%;
+  }
+
+  #less {
+    display: none;
+    width: 95%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black);
+    border: solid 1px var(--black);
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+
+  #hide1 {
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+  }
+
+  #hide2 {
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+    margin-bottom: 4%;
+  }
+}
+
+@media all and (min-width: 1558px) {
+  #section-hero {
+    background-image: linear-gradient(180deg, rgba(228, 224, 218, 0.65), rgba(221, 54, 12, 0.65)), url(./bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom  left;
+    margin: 0;
+    display: block;
+    height: 990px;
+  }
+
+  #nav-pages {
+    margin-left: 50%;
+  }
+
+  .date {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 0;
+    margin-right: 45%;
+    padding-right: 20%;
+  }
+}
