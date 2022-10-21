@@ -20,6 +20,10 @@ body {
   align-items: center;
 }
 
+.fa-brands {
+  color: #d3d3d3;
+}
+
 /* Home page */
 
 .social-media {
@@ -187,7 +191,7 @@ body {
   font-weight: 900;
 }
 
-#program h1 {
+#program h2 {
   color: var(--grey);
 }
 
@@ -279,6 +283,7 @@ body {
   font-size: 20px;
   padding: 10px;
   text-align: center;
+  justify-content: center;
 }
 
 .title-about-2 {
@@ -431,7 +436,7 @@ body {
   margin-top: 6%;
   margin-left: 2%;
   font-family: var(--font);
-  font-weight: 900;
+  font-weight: 400;
   font-size: 22px;
   line-height: 44px;
   color: var(--black);
@@ -546,7 +551,7 @@ body {
 @media all and (min-width: 972px) {
   #footer-sec {
     height: 200px;
-    background-color: var(--grey);
+    background-color: var(--black);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -559,7 +564,8 @@ body {
     margin-left: 4%;
     margin-right: 4%;
     justify-content: space-between;
-    background-color: var(--grey);
+    background-color: var(--black);
+    color: var(--grey);
   }
 
   #section-hero {
@@ -599,7 +605,7 @@ body {
     display: flex;
     width: 80%;
     height: 30px;
-    background-color: var(--orange);
+    background-color: var(--black);
     justify-content: center;
     align-items: center;
     padding-left: 35%;
@@ -663,18 +669,18 @@ body {
 
   #hero-bg {
     background-image: none;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 20%;
   }
 
   .title {
     display: flex;
     width: 50%;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 45px;
     justify-content: center;
   }
 
@@ -689,22 +695,28 @@ body {
 
   .paragraph {
     display: flex;
-    margin: 10px;
+    margin: 14px;
     font-size: 24px;
     justify-content: center;
-    width: 50%;
+    width: 43%;
   }
 
   .date {
     font-size: 20px;
     font-weight: bold;
     width: 100%;
-    margin-top: 6%;
+    margin-top: -2%;
+    margin-right: 38%;
+  }
+
+  .date h2 {
+    width: 100%;
   }
 
   .date p {
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 300;
+    width: 100%;
   }
 
   #program {
@@ -781,6 +793,10 @@ body {
   }
 
   /* ABOUT-MEDIA */
+
+  #about-img-3 {
+    flex-direction: row;
+  }
 
   #section-about {
     background-image: linear-gradient(180deg, rgba(236, 207, 153, 0.65), rgba(255, 233, 217, 0.65));
@@ -866,21 +882,23 @@ body {
   }
 
   #red-img {
-    width: 660px;
-    height: 450px;
+    width: 600px;
+    height: 330px;
     justify-content: center;
     background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(/bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 700px;
+    background-position: bottom left;
     justify-self: center;
   }
 
   #red-img-2 {
-    width: 660px;
-    height: 450px;
+    width: 600px;
+    height: 330px;
     justify-content: center;
     background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(/bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
     background-repeat: no-repeat;
+    background-position: bottom left;
     background-size: 700px;
     justify-self: center;
   }
@@ -987,10 +1005,19 @@ body {
     background-position: bottom  left;
     margin: 0;
     display: block;
-    height: 800px;
+    height: 990px;
   }
 
   #nav-pages {
     margin-left: 50%;
+  }
+
+  .date {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 0;
+    margin-right: 45%;
+    padding-right: 20%;
   }
 }
