@@ -42,7 +42,7 @@ body {
 #hero-div {
   display: flex;
   flex-direction: column;
-  background-image: url(/bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+  background-image: url(./bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -168,7 +168,7 @@ body {
 }
 
 #main-program {
-  background-image: url(/bg-img/pattern_bg.png);
+  background-image: url(./bg-img/pattern_bg.png);
   background-repeat: repeat;
   background-color: #272a32;
   height: 730px;
@@ -354,7 +354,7 @@ body {
   width: 360px;
   height: 300px;
   justify-content: center;
-  background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(/bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
+  background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(./bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 500px;
   justify-self: center;
@@ -364,7 +364,7 @@ body {
   width: 360px;
   height: 300px;
   justify-content: center;
-  background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(/bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
+  background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(./bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 500px;
   justify-self: center;
@@ -574,7 +574,7 @@ body {
   }
 
   #section-hero {
-    background-image: linear-gradient(180deg, rgba(228, 224, 218, 0.65), rgba(221, 54, 12, 0.65)), url(/bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    background-image: linear-gradient(180deg, rgba(228, 224, 218, 0.65), rgba(221, 54, 12, 0.65)), url(./bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom  left;
@@ -896,7 +896,7 @@ body {
     width: 600px;
     height: 330px;
     justify-content: center;
-    background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(/bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
+    background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(./bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 700px;
     background-position: bottom left;
@@ -907,7 +907,7 @@ body {
     width: 600px;
     height: 330px;
     justify-content: center;
-    background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(/bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
+    background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(./bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 700px;
@@ -1010,7 +1010,7 @@ body {
 
 @media all and (min-width: 1558px) {
   #section-hero {
-    background-image: linear-gradient(180deg, rgba(228, 224, 218, 0.65), rgba(221, 54, 12, 0.65)), url(/bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    background-image: linear-gradient(180deg, rgba(228, 224, 218, 0.65), rgba(221, 54, 12, 0.65)), url(./bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom  left;
