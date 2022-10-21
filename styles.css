@@ -22,6 +22,7 @@ body {
 
 .fa-brands {
   color: #d3d3d3;
+  size: 13px;
 }
 
 /* Home page */
@@ -549,6 +550,11 @@ body {
 /* MEDIA-QUERY */
 
 @media all and (min-width: 972px) {
+
+  #ham {
+    display: none;
+  }
+
   #footer-sec {
     height: 200px;
     background-color: var(--black);
@@ -612,7 +618,13 @@ body {
   }
 
   .social-media i {
-    width: 50px;
+    width: 40px;
+  }
+
+  .social-media span {
+    color: var(--grey);
+    font-family: var(--font);
+    padding-left: 13px;
   }
 
   #navbar {
