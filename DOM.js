@@ -1,12 +1,12 @@
-//HAMBURGER-MENU
+// HAMBURGER-MENU
 function mobileMenu() {
- const window = document.querySelector('.hambu-wind');
- window.classList.replace('not-active', 'active');
+  const window = document.querySelector('.hambu-wind');
+  window.classList.replace('not-active', 'active');
 }
 
 function closeMenu() {
- const window = document.querySelector('.hambu-wind');
- window.classList.replace('active', 'not-active');
+  const window = document.querySelector('.hambu-wind');
+  window.classList.replace('active', 'not-active');
 }
 
 document.getElementById('ham-link').addEventListener('click', mobileMenu);
@@ -14,48 +14,53 @@ document.getElementById('close').addEventListener('click', closeMenu);
 const anchorElm = document.querySelectorAll('.pop-window');
 
 for (let i = 0; i < anchorElm.length; i += 1) {
- anchorElm[i].addEventListener('click', closeMenu);
+  anchorElm[i].addEventListener('click', closeMenu);
 }
 
-//CARDS 
+// CARDS
 
-//DATA
+// DATA
 
-let bandsData = [
- {name: 'blink',
-  genre: 'punk-rock',
-  bio: 'Blink-182 is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
-  img: '/bg-img/blink.jpg',
-},
-{name: 'Paramore',
-  genre: 'indie-rock',
-  bio: 'Paramore is an American rock band formed in Poway, California, in 1992.  consists Luna Hoppus, Tom DeLonge,  Travis Barker',
-  img: '/bg-img/paramore.jpg',
-},
-{name: 'Linkin-park',
-  genre: 'heavy-punk',
-  bio: 'Linkin-park is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
-  img: '/bg-img/linkin.jpg',
-},
-{name: 'Mana',
-  genre: 'soft-rock',
-  bio: 'Mana is a Mexican rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
-  img: '/bg-img/mana2.jpg',
-},
-{name: 'Slipknot',
-  genre: 'heavy-metal',
-  bio: 'Slipknot is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
-  img: '/bg-img/slipknot.jpg',
-},
-{name: 'QUEEN',
-  genre: 'indie-metal',
-  bio: 'QUEEN is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
-  img: '/bg-img/queen.jpg',
-},
+const bandsData = [
+  {
+    name: 'blink',
+    genre: 'punk-rock',
+    bio: 'Blink-182 is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
+    img: '/bg-img/blink.jpg',
+  },
+  {
+    name: 'Paramore',
+    genre: 'indie-rock',
+    bio: 'Paramore is an American rock band formed in Poway, California, in 1992.  consists Luna Hoppus, Tom DeLonge,  Travis Barker',
+    img: '/bg-img/paramore.jpg',
+  },
+  {
+    name: 'Linkin-park',
+    genre: 'heavy-punk',
+    bio: 'Linkin-park is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
+    img: '/bg-img/linkin.jpg',
+  },
+  {
+    name: 'Mana',
+    genre: 'soft-rock',
+    bio: 'Mana is a Mexican rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
+    img: '/bg-img/mana2.jpg',
+  },
+  {
+    name: 'Slipknot',
+    genre: 'heavy-metal',
+    bio: 'Slipknot is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
+    img: '/bg-img/slipknot.jpg',
+  },
+  {
+    name: 'QUEEN',
+    genre: 'indie-metal',
+    bio: 'QUEEN is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
+    img: '/bg-img/queen.jpg',
+  },
 ];
 
-
-//FUNCTIONALITY
+// FUNCTIONALITY
 const bodyDiv = document.getElementById('bands');
 const artistDiv = document.createElement('div');
 artistDiv.classList.add('feature-bands');
@@ -127,7 +132,6 @@ const divContent = `<div id="bands-title">
 <button class="not-active" id="less">LESS <i class="fa-sharp fa-solid fa-angle-up"></i></button>
 </div>`;
 
-
 artistDiv.insertAdjacentHTML('beforeend', divContent);
 
 const showBtn = document.querySelector('.show');
@@ -136,19 +140,18 @@ const hiddenRow2 = document.getElementById('hide2');
 const hideBtno = document.getElementById('less');
 
 function showCards() {
- showBtn.classList.replace('show', 'not-active');
- hiddenRow1.classList.replace('not-active', 'band-row');
- hiddenRow2.classList.replace('not-active', 'band-row');
- hideBtno.classList.replace('not-active', 'less');
+  showBtn.classList.replace('show', 'not-active');
+  hiddenRow1.classList.replace('not-active', 'band-row');
+  hiddenRow2.classList.replace('not-active', 'band-row');
+  hideBtno.classList.replace('not-active', 'less');
 }
 
 function hideCards() {
- showBtn.classList.replace('not-active', 'show', );
- hiddenRow1.classList.replace('band-row', 'not-active');
- hiddenRow2.classList.replace('band-row', 'not-active');
- hideBtno.classList.replace( 'less', 'not-active');
+  showBtn.classList.replace('not-active', 'show');
+  hiddenRow1.classList.replace('band-row', 'not-active');
+  hiddenRow2.classList.replace('band-row', 'not-active');
+  hideBtno.classList.replace('less', 'not-active');
 }
 
 showBtn.addEventListener('click', showCards);
 hideBtno.addEventListener('click', hideCards);
-

@@ -11,7 +11,7 @@ body {
   --orange: #ec5242;
   --grey: #d3d3d3;
   --black: #272a31;
-  --font: "Lato", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --font: "Lato", 'Franklin Gothic Medium', 'Arial Narrow', arial, sans-serif;
 }
 
 .flex-center {
@@ -94,7 +94,7 @@ body {
 #hero-bg {
   padding-top: 2%;
   height: auto;
-  background-image: linear-gradient(180deg,rgba(228, 224, 218, 0.65),rgba(221, 54, 12, 0.65));
+  background-image: linear-gradient(180deg, rgba(228, 224, 218, 0.65), rgba(221, 54, 12, 0.65));
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -138,7 +138,6 @@ body {
   margin-bottom: 10%;
 }
 
-
 .date {
   display: flex;
   font-family: var(--font);
@@ -146,7 +145,6 @@ body {
   font-size: 15px;
   font-weight: bold;
   width: 90%;
-  display: inline-block;
   text-align: center;
   margin-bottom: 4px;
   letter-spacing: 0;
@@ -184,6 +182,10 @@ body {
   gap: 10px;
 }
 
+.title-about h1 {
+  font-weight: 900;
+}
+
 #program h1 {
   color: var(--grey);
 }
@@ -197,7 +199,7 @@ body {
   display: none;
 }
 
-.cards{
+.cards {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -253,6 +255,7 @@ body {
   padding-left: 5%;
   background-color: rgba(228, 224, 218, 0.65);
 }
+
 #about-div {
   display: flex;
   flex-direction: column;
@@ -261,7 +264,7 @@ body {
 
 #about-bg {
   height: 610px;
-  background-image: linear-gradient(180deg,rgba(236, 207, 153, 0.65),rgba(255, 233, 217, 0.65));
+  background-image: linear-gradient(180deg, rgba(236, 207, 153, 0.65), rgba(255, 233, 217, 0.65));
   margin-bottom: 5%;
   display: flex;
   flex-direction: column;
@@ -274,10 +277,6 @@ body {
   font-size: 20px;
   padding: 10px;
   text-align: center;
-}
-
-.title-about h1 {
-  font-weight: 900;
 }
 
 .title-about-2 {
@@ -303,6 +302,14 @@ body {
   align-items: center;
   padding: 5%;
   border-bottom: 1px solid #e2e4e7;
+}
+
+.about-img-4 img {
+  width: 50px;
+}
+
+.artist-cards img {
+  width: 25%;
 }
 
 #about-img-2 {
@@ -335,27 +342,24 @@ body {
   font-size: 20px;
 }
 
-
 #red-img {
   width: 360px;
   height: 300px;
   justify-content: center;
-  background-image: linear-gradient(180deg,rgba(238, 44, 44, 0.35),rgba(245, 12, 4, 0.35)),url(/bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
+  background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(/bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 500px;
   justify-self: center;
-  justify-content: center;
 }
 
 #red-img-2 {
   width: 360px;
   height: 300px;
   justify-content: center;
-  background-image: linear-gradient(180deg,rgba(238, 44, 44, 0.35),rgba(245, 12, 4, 0.35)),url(/bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
+  background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(/bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 500px;
   justify-self: center;
-  justify-content: center;
 }
 
 #about-bg-4 {
@@ -367,17 +371,11 @@ body {
   background-color: rgb(62, 62, 62);
 }
 
-
 .about-img-4 {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-self: flex-start;
-}
-
-
-.about-img-4 img {
-  width: 50px;
 }
 
 #title-footer {
@@ -459,7 +457,7 @@ body {
   font-family: var(--font);
 }
 
-.band-row{
+.band-row {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -472,10 +470,6 @@ body {
   gap: 5%;
   font-family: var(--font);
   margin-top: 2%;
-}
-
-.artist-cards img {
-  width: 25%;
 }
 
 .artist-cards h3 {
@@ -542,8 +536,9 @@ body {
 }
 
 #footer-part h3 {
- align-self: center;
+  align-self: center;
 }
+
 /* MEDIA-QUERY */
 
 @media all and (min-width: 972px) {
@@ -553,7 +548,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--grey);
   }
 
   #footer-part {
@@ -564,29 +558,28 @@ body {
     margin-right: 4%;
     justify-content: space-between;
     background-color: var(--grey);
-    
   }
 
   #section-hero {
-    background-image: linear-gradient(180deg,rgba(228, 224, 218, 0.65),rgba(221, 54, 12, 0.65)),url(/bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    background-image: linear-gradient(180deg, rgba(228, 224, 218, 0.65), rgba(221, 54, 12, 0.65)), url(/bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom  left ;
+    background-position: bottom  left;
     margin: 0;
     display: block;
   }
- 
+
   #hero-div {
     display: block;
     background-image: none;
     width: 100%;
   }
-  
+
   #ham-link {
     align-content: center;
     display: none;
   }
-  
+
   #logo-mobile {
     display: none;
   }
@@ -595,7 +588,7 @@ body {
     display: block;
     align-content: center;
   }
- 
+
   #logo-btn {
     width: 80px;
   }
@@ -612,7 +605,6 @@ body {
 
   .social-media i {
     width: 50px;
-
   }
 
   #navbar {
@@ -637,7 +629,7 @@ body {
     padding-left: 5%;
     background-color: rgba(228, 224, 218, 0.65);
   }
-  
+
   #nav-pages {
     width: auto;
     display: flex;
@@ -663,11 +655,10 @@ body {
     line-height: 44px;
     color: var(--black);
     font-family: var(--font);
-    color: var(--orange);
     background-color: rgba(228, 224, 218, 0.65);
     border: 3px solid var(--orange);
   }
-  
+
   #hero-bg {
     background-image: none;
     width: 100%;
@@ -684,7 +675,7 @@ body {
     font-size: 40px;
     justify-content: center;
   }
-  
+
   .title h1 {
     font-weight: 900;
   }
@@ -693,7 +684,7 @@ body {
     margin: 0;
     font-weight: 300;
   }
-  
+
   .paragraph {
     display: flex;
     margin: 10px;
@@ -701,35 +692,39 @@ body {
     justify-content: center;
     width: 50%;
   }
-  
+
   .date {
     font-size: 20px;
     font-weight: bold;
     width: 100%;
     margin-top: 6%;
   }
-  
+
   .date p {
     font-size: 13px;
     font-weight: 300;
   }
-  
+
   #program {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 4%;
   }
-  
+
+  .title-about h1 {
+    font-weight: 900;
+  }
+
   #program h1 {
     color: var(--grey);
   }
-  
+
   #program-title {
     margin: 0;
     padding: 0;
   }
-  
+
   .cards {
     display: flex;
     flex-direction: row;
@@ -746,9 +741,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: center ;
+    align-items: center;
   }
-  
+
   .program-cards img {
     margin-top: 5px;
     margin-left: 5px;
@@ -759,7 +754,7 @@ body {
   #music2 {
     width: 100px;
   }
-  
+
   .program-cards h3 {
     font-size: 20px;
     color: var(--orange);
@@ -767,13 +762,13 @@ body {
     text-align: center;
     margin: 2px;
   }
-  
+
   .card-p {
     color: var(--grey);
     width: 100%;
     text-align: center;
   }
-  
+
   #join-btn {
     display: none;
   }
@@ -786,14 +781,14 @@ body {
   /* ABOUT-MEDIA */
 
   #section-about {
-    background-image: linear-gradient(180deg,rgba(236, 207, 153, 0.65),rgba(255, 233, 217, 0.65));
+    background-image: linear-gradient(180deg, rgba(236, 207, 153, 0.65), rgba(255, 233, 217, 0.65));
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     display: block;
     height: 900px;
   }
-  
+
   #about-div {
     display: block;
     flex-direction: column;
@@ -804,7 +799,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   #about-bg {
     background-image: none;
     display: flex;
@@ -812,7 +807,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  
+
   #date-about {
     margin-top: 0;
   }
@@ -826,11 +821,7 @@ body {
     text-align: center;
     justify-content: center;
   }
-  
-  .title-about h1 {
-    font-weight: 900;
-  }
-  
+
   .title-about-2 {
     display: flex;
     color: var(--black);
@@ -839,45 +830,58 @@ body {
     padding: 20px;
     text-align: center;
   }
-  
+
   #about-p {
     background-color: white;
     margin-left: 4%;
     margin-right: 4%;
     margin-bottom: 4%;
   }
-    
+
+  .about-img-4 img {
+    width: 170px;
+    align-self: center;
+  }
+
+  .artist-cards {
+    display: flex;
+    width: 100%;
+    gap: 5%;
+  }
+
+  .artist-cards img {
+    width: 25%;
+  }
+
   #about-img-2 {
     width: 30%;
     justify-self: center;
   }
-  
+
   #about-img-2 img {
     justify-self: center;
   }
-    
+
   #red-img {
     width: 660px;
     height: 450px;
     justify-content: center;
-    background-image: linear-gradient(180deg,rgba(238, 44, 44, 0.35),rgba(245, 12, 4, 0.35)),url(/bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
+    background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(/bg-img/marvin-meyer-IB5bld_weak-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 700px;
     justify-self: center;
-    justify-content: center;
   }
-  
+
   #red-img-2 {
     width: 660px;
     height: 450px;
     justify-content: center;
-    background-image: linear-gradient(180deg,rgba(238, 44, 44, 0.35),rgba(245, 12, 4, 0.35)),url(/bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
+    background-image: linear-gradient(180deg, rgba(238, 44, 44, 0.35), rgba(245, 12, 4, 0.35)), url(/bg-img/josh-durham-Bpp0iwosSWc-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 700px;
     justify-self: center;
-    justify-content: center;
   }
-  
+
   .about-img-4 {
     display: flex;
     max-width: 1400px;
@@ -887,11 +891,6 @@ body {
     align-self: center;
   }
 
-  .about-img-4 img {
-    width: 170px;
-    align-self: center;
-  }
-  
   #title-footer {
     color: var(--grey);
     font-family: var(--font);
@@ -906,12 +905,11 @@ body {
     align-items: center;
     font-family: var(--font);
     width: 100%;
-    align-items: center;
     justify-content: center;
     gap: 30px;
   }
-  
-  .band-row{
+
+  .band-row {
     align-self: center;
     justify-self: center;
     display: flex;
@@ -919,30 +917,20 @@ body {
     gap: 20px;
     width: 80%;
   }
-  
-  .artist-cards {
-    display: flex;
-    width: 100%;
-    gap: 5%;
-  }
-  
-  .artist-cards img {
-    width: 25%;
-  }
-  
+
   .artist-cards h6 {
     margin-top: 0;
   }
-  
+
   .artist-text p {
     margin: 0;
     padding: 0;
   }
-  
+
   #last-band-card {
     margin-bottom: 5%;
   }
-  
+
   .show {
     display: none;
     width: 95%;
@@ -954,7 +942,7 @@ body {
     background-color: white;
     margin-top: 8%;
   }
-  
+
   #less {
     display: none;
     width: 95%;
@@ -968,7 +956,7 @@ body {
     margin-bottom: 4%;
   }
 
-  #hide1{
+  #hide1 {
     align-self: center;
     justify-self: center;
     display: flex;
@@ -977,7 +965,7 @@ body {
     width: 80%;
   }
 
-  #hide2{
+  #hide2 {
     align-self: center;
     justify-self: center;
     display: flex;
@@ -988,15 +976,12 @@ body {
   }
 }
 
-
-
 @media all and (min-width: 1558px) {
-
   #section-hero {
-    background-image: linear-gradient(180deg,rgba(228, 224, 218, 0.65),rgba(221, 54, 12, 0.65)),url(/bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    background-image: linear-gradient(180deg, rgba(228, 224, 218, 0.65), rgba(221, 54, 12, 0.65)), url(/bg-img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom  left ;
+    background-position: bottom  left;
     margin: 0;
     display: block;
     height: 800px;
