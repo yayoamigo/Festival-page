@@ -26,37 +26,37 @@ const bandsData = [
     name: 'blink',
     genre: 'punk-rock',
     bio: 'Blink-182 is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
-    img: '/bg-img/blink.jpg',
+    img: './bg-img/blink.jpg',
   },
   {
     name: 'Paramore',
     genre: 'indie-rock',
     bio: 'Paramore is an American rock band formed in Poway, California, in 1992.  consists Luna Hoppus, Tom DeLonge,  Travis Barker',
-    img: '/bg-img/paramore.jpg',
+    img: './bg-img/paramore.jpg',
   },
   {
     name: 'Linkin-park',
     genre: 'heavy-punk',
     bio: 'Linkin-park is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
-    img: '/bg-img/linkin.jpg',
+    img: './bg-img/linkin.jpg',
   },
   {
     name: 'Mana',
     genre: 'soft-rock',
     bio: 'Mana is a Mexican rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
-    img: '/bg-img/mana2.jpg',
+    img: './bg-img/mana2.jpg',
   },
   {
     name: 'Slipknot',
     genre: 'heavy-metal',
     bio: 'Slipknot is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
-    img: '/bg-img/slipknot.jpg',
+    img: './bg-img/slipknot.jpg',
   },
   {
     name: 'QUEEN',
     genre: 'indie-metal',
     bio: 'QUEEN is an American rock band formed in Poway, California, in 1992.  consists Mark Hoppus, Tom DeLonge,  Travis Barker',
-    img: '/bg-img/queen.jpg',
+    img: './bg-img/queen.jpg',
   },
 ];
 
