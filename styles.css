@@ -550,7 +550,6 @@ body {
 /* MEDIA-QUERY */
 
 @media all and (min-width: 972px) {
-
   #ham {
     display: none;
   }
